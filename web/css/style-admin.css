@@ -1,0 +1,108 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body{
+}
+
+
+#content {
+		width: 100%;
+	min-height: 642px;
+	float: left;
+}
+
+#content .left {
+	width: 100%;
+	min-height: 642px;
+	margin-right: 10px;
+	border: 1px solid #dfdfdf;
+	float: left;
+}
+
+#content .left h3 {
+	height: 30px;
+	background: #FF8D1B;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+#content .left ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content .left ul a li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	background: #FF8D1B;
+	border-radius: 4px;
+	margin-bottom: 3px;
+	font-weight: bold;
+	padding-left: 7px;
+	color: white;
+}
+
+#content .left ul a {
+	text-decoration: none;
+}
+
+#content .left ul a li:hover {
+	padding-left: 14px;
+	background: rgb(243, 217, 190);
+}
+
+#content .left ul a li{
+	cursor: point;
+}
+
+#content .right {
+	width: 100%;
+	min-height: 642px;
+	float: left;
+	border: 1px solid #dfdfdf;
+}
+
+#content .right h3 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+input#imageEdit-button {
+	background: white url('./images/icon/edit.png') no-repeat top left;
+	width: 25px;
+	height: 25px;
+}
+
+.mybutton {
+	background-color: white!important;
+	border-color: #FF8D1B!important;
+	color: #FF8D1B!important;
+	margin: 5px!important;
+}
+
+	.mybutton:hover {
+		background-color: #FF8D1B!important;
+		color: white!important;
+	}
+	
+/* this css is extended from class form-control in bootstrap */
+.form-control-add-css {
+    border-color: red!important;
+    margin: 5px 0!important;
+}
+	.form-control-add-css:hover {
+		background-color: #f7f7f7!important;
+	}
+	
+	.form-control-add-css:active {
+		background-color: rgb(243, 217, 190)!important;
+	}
+	
+.img-resized img {
+	width: 700px!important;
+	height: 500px!important;
+}
